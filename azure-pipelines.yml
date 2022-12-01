@@ -6,6 +6,7 @@
 trigger: none
 
 pool: Default
+name: OracleLin7
 
 variables:
   solution: '**/*.sln'
