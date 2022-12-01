@@ -5,8 +5,10 @@
 
 trigger: none
 
-pool: Default
-name: OracleLin7
+pool: 
+  name: Default
+  demands:
+    - agent.name -equals OracleLin7
 
 variables:
   solution: '**/*.sln'
